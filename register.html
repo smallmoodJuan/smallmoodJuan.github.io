@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>用户登录</title>
+		<link rel="stylesheet" type="text/css" href="Font-Awesome-3.2.1/css/font-awesome.css"/>
+		<link rel="stylesheet/less" type="text/css" href="css/register.less"/>
+		<script src="js/less.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+		*{padding: 0;margin: 0;}
+    @wid:100%;
+    @hei:100px;
+    @bg:#EFEFEF;
+    @font:50px;
+    .pos(@pos:absolute){
+        position: @pos;
+    }
+    .line(@line:100px){
+        line-height: @line;
+    }
+    .bor(@xs:2px,@sol:solid,@col:#F3F3F3){
+        border-bottom: @xs @sol @col;
+    }
+    .bot(@xs:2px,@sol:solid,@col:#0C8AD2){
+        border-bottom: @xs @sol @col;
+    }
+    .border(@xs:1px,@sol:solid,@col:#000){
+        border: @xs @sol @col;
+    }
+    .dis(@dis:inline-block){display: @dis;}
+		@media (max-device-width:4200px){
+			.container{width: @wid;}
+        .container_one{width: @wid;height: 320px;position: relative;.bor;}
+        .container_one_left{.dis;margin-left: 2%;margin-top: 5%;}
+        .container_one_left img{width: 200px;height: 200px;}
+        .container_one_right{.dis;width: 70%;margin-left: 3%;margin-top: 2.5%;position: absolute;}
+        .container_one_right p{font-size: 38px;margin-top: 2%;}
+        .money{color: red;}
+        }
+		</style>
+	</head>
+	<body>
+		<!--<div id="box">
+			<div id="head">
+				<span><b>买手机</b></span>
+				<span class="icon"><i class="icon-home"></i></span>
+				<span class="icon2"><i class="icon-angle-left"></i></span>
+			</div>
+		</div>-->
+		<div class="container" style="display: block;">
+			<div class="container_one">
+				<div class="container_one_left">
+					<!--<img src="img/iphone/phone1.png"/>-->
+				</div>
+				<div class="container_one_right">
+					<p><b>【赠话费】vivo Y55A 2GB+16GB 全网通4G手机</b></p>
+					<p>5.2英寸高清屏 骁龙八核处理器 2.5D弧面玻璃 美颜自拍 购机赠送50元话费</p>
+					<p class="money">￥ 1298</p>
+				</div>
+			</div>
+			<div class="container_one">
+				<div class="container_one_left">
+					<!--<img src="img/iphone/phone2.png"/>-->
+				</div>
+				<div class="container_one_right">
+					<p><b>【赠话费】vivo Y66 3GB+32GB 全网通4G手机</b></p>
+					<p>5.5英寸高清大屏 2.5D弧面玻璃 后置1300万像素摄像头 购机赠送50元话费</p>
+					<p class="money">￥ 1498</p>
+				</div>
+			</div>
+			<div class="container_one">
+				<div class="container_one_left">
+					<!--<img src="img/iphone/phone3.png"/>-->
+				</div>
+				<div class="container_one_right">
+					<p><b>小米MIX尊享版 6GB+256GB 双卡双待 全网通4G手机</b></p>
+					<p>全面屏概念手机</p>
+					<p class="money">￥ 4499</p>
+				</div>
+			</div>
+			<div class="container_one">
+				<div class="container_one_left">
+					<!--<img src="img/iphone/phone4.png"/>-->
+				</div>
+				<div class="container_one_right">
+					<p><b>小米Note2 双曲面 64GB/128GB 全网通4G手机</b></p>
+					<p>后置2256万像素摄像头 晓龙821处理器 双曲面商务旗舰手机</p>
+					<p class="money">￥ 2999</p>
+				</div>
+			</div>
+			<div class="container_one">
+				<div class="container_one_left">
+					<!--<img src="img/iphone/phone5.png"/>-->
+				</div>
+				<div class="container_one_right">
+					<p><b>小米 红米4A 2GB+16GB 全网通4G手机</b></p>
+					<p>5.0英寸屏 1300万像素 轻盈小巧的长续航手机</p>
+					<p class="money">￥ 659</p>
+				</div>
+			</div>
+			<div class="container_one">
+				<div class="container_one_left">
+					<!--<img src="img/iphone/phone6.png"/>-->
+				</div>
+				<div class="container_one_right">
+					<p><b>魅族魅蓝5 双卡双待 16GB/32GB 全网通4G智能手机</b></p>
+					<p>正面指纹识别 2.5D弧面玻璃 八核处理器 1300万像素</p>
+					<p class="money">￥ 799</p>
+				</div>
+			</div>
+			<div class="container_one">
+				<div class="container_one_left">
+					<!--<img src="img/iphone/phone7.png"/>-->
+				</div>
+				<div class="container_one_right">
+					<p><b>【赠话费】vivo X9 Plus 6GB+64GB 全网通4G手机</b></p>
+					<p>前置2000万+800万柔光双摄像头 正面指纹解锁 4000毫安大电池</p>
+					<p class="money">￥ 3298</p>
+				</div>
+			</div>
+			<div class="container_one">
+				<div class="container_one_left">
+					<!--<img src="img/iphone/phone8.png"/>-->
+				</div>
+				<div class="container_one_right">
+					<p><b>【赠好礼】魅族魅蓝Note5 3GB+16GB 全网通4G手机</b></p>
+					<p>金属一体化机身 指纹解锁 1300万像素 4000毫安大电池 安全快充</p>
+					<p class="money">￥ 978</p>
+				</div>
+			</div>
+			<div class="container_one">
+				<div class="container_one_left">
+					<!--<img src="img/iphone/phone9.png"/>-->
+				</div>
+				<div class="container_one_right">
+					<p><b>【赠话费】iPhone7 4.7英寸 国行公开版 全网通4G手机</b></p>
+					<p>A10芯片 指纹识别 防溅抗水 IOS10操作系统与众不同 购128G送280元话费</p>
+					<p class="money">￥ 5098</p>
+				</div>
+			</div>
+		</div>
+				
+		<script type="text/javascript">
+			var asd = document.getElementsByClassName("container")[0].children;
+			var Money = document.getElementsByClassName("money")[0];
+			var selectSort = function () {
+				var min;
+				for (var i = 0; i < asd.length; i++) {
+				    min = i;
+				    for (var j = i + 1; j < asd.length; j++) {
+					    if (asd[min] > asd[j]) {
+					    	min = j;
+					    }
+				    }
+				    if (i != min) {
+				    	swap(asd, i, min);
+				    }
+			    }
+			};
+//			function swap(asd, Money, index2) {
+//				var temp = asd[Money];
+//				asd[Money] = asd[index2];
+//				asd[index2] = temp;
+//			};
+			
+			
+			
+			
+			
+		</script>		
+	</body>
+</html>

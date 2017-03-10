@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--[if lte IE 9]>
+			<script src="js/html5shiv.min.js" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>中国移动官方网站</title>
+		<link rel="stylesheet" type="text/css" href="Font-Awesome-3.2.1/css/font-awesome.css"/>
+		<link rel="stylesheet" type="text/css" href="css/first.css"/>
+		<!--<script src="js/less.min.js" type="text/javascript" charset="utf-8"></script>-->
+	</head>
+	<body>
+		<div id="container">
+			<!---------------头部------------------------->
+			<header id="header">
+				<img class="img1" src="img/logo.png"/>
+				<div class="div1">
+					<span id="sp">太原</span> <i></i>
+				</div>
+				<img class="img2" src="img/phonenav.png" />
+				<div class="div2" style="display: none;">
+					<ul>
+						<li>山西 <b>[返回全部省份]</b></li>
+						<li>
+							<a href="">太原</a><a href="">朔州</a><a href="">忻州</a><a href="">阳泉</a><a href="">大同</a><a href="">晋中</a><a href="">长治</a><a href="">晋城</a><a href="">临汾</a><a href="">吕梁</a><a href="">运城</a>
+						</li>
+					</ul>
+				</div>
+				<div id="div1" style="display: none;">
+					<p>登录移动商城</p>
+					<span id="btn"><i class="icon-remove"></i></span>
+					<ul>
+						<li>网上营业厅</li>
+						<li>手机营业厅</li>
+						<li>积分商城</li>
+						<li>关于中国移动</li>
+						<li>ENGUSH</li>
+					</ul>
+				</div>
+			</header>
+			<!-------------------导航------------>
+			<nav id="nav">
+				<ul>
+					<li class="li1"><a href="">首页</a></li>
+					<li><a href="mobilemall.html">移动商场</a></li>
+					<li><a href="">我的移动</a></li>
+					<li><a href="">服务与支持</a></li>
+				</ul>
+			</nav>
+			<!---------------轮播------------------------->
+			<div id="slider">
+				<div id="pic">
+					<img src="img/b1.jpg" class="img"/>
+					<img src="img/b3.jpg" />
+					<img src="img/b2.jpg" />
+					<img src="img/b4.jpg" />
+					<img src="img/5jie.jpg" />
+					<img src="img/b.jpg" />
+					<img src="img/renwu.jpg" />
+				</div>
+				<div id="title">
+					<a href="" class="point"></a>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+				</div>
+				<div id="left" onclick="play()"><img src="img/prev.png" /></div>
+				<div id="right" onclick="autoMove()"><img src="img/next.png"/></div>
+			</div>
+			<!---------------快捷服务------------------------->
+			<div id="content">
+				<div class="top">
+					<img src="img/BAN.png" />
+					<p>话费查询</p>
+				</div>
+				<div class="top">
+					<img src="img/LIULIANGCHAXUN.png" />
+					<p>流量查询</p>
+				</div>
+				<div class="top">
+					<img src="img/GUOJI.png" />
+					<p>国际</p>
+				</div>
+				<div class="top">
+					<img src="img/JIFDUIH.png" />
+					<p>积分兑换</p>
+				</div>
+				<div class="top">
+					<img src="img/YOUHUI.png" />
+					<p>优惠促销</p>
+				</div>
+				<div class="top">
+					<img src="img/XUANHAORUWANG.png" />
+					<p>选号入网</p>
+				</div>
+			</div>
+			<!---------------充值------------------------->
+			<div id="content_one">
+		    	<h3>充值交费</h3>
+		    	<span><b>9.95折</b></span>
+		    	<input type="text" placeholder="请输入手机号" class="text"/>
+		    	<input type="button" value="50元" class="btn1"/>
+		    	<input type="button" value="100元" class="btn2"/>
+		    	<input type="button" value="300元" class="btn3"/>
+		    	<input type="button" value="500元" class="btn4"/>
+		    	<input type="button" value="其他" class="btn4"/>
+		    	<button class="btn">立即充值</button>
+			</div>
+			<!---------------滚动------------------------->
+			<div id="demo">
+				<div id="content_two">
+					<div class="content_two">
+						<h2>流量放心包</h2>
+						<p>免费开通 流量放心用</p>
+						<img src="img/a1.jpg"  title="流量放心包"/>
+					</div>
+					<div class="content_two">
+						<h2>4G套餐</h2>
+						<p>加速加量不加价</p>
+						<img src="img/4Gshouji.jpg" title="4G套餐"/>
+					</div>
+					<div class="content_two">
+						<h2>话费充值9.95折</h2>
+						<p>每周三充值更优惠</p>
+						<img src="img/$RSJS7M5.jpg"  title="话费充值9.95折"/>
+					</div>
+					<div class="content_two">
+						<h2>WLAN套餐</h2>
+						<p>自由无限 随心畅享</p>
+						<img src="img/a.jpg" title="WLAN套餐"/>
+					</div>
+					<div class="content_two">
+						<h2>两城一家</h2>
+						<p>两座城市 一种价格</p>
+						<img src="img/liangcheng.jpg" title="两城一家"/>
+					</div>
+					<div class="content_two">
+						<h2>4G手机 低价购</h2>
+						<p>合约套餐 任您挑选</p>
+						<img src="img/sjyyt.jpg" title="4G手机 低价购"/>
+					</div>
+					<div class="content_two">
+						<h2>手机营业厅</h2>
+						<p>随时随地 随心随行</p>
+						<img src="img/4Gshouji.jpg" title="手机营业厅"/>
+					</div>
+					<div class="content_two">
+						<h2>宽带预约</h2>
+						<p>足不出户办宽带</p>
+						<img src="img/kdyy.jpg" title="宽带预约"/>
+					</div>
+				</div>
+				<div id="demo1"></div>
+			</div>
+			<!--------------4G专区-------------->
+			<div id="content_three">
+				<div id="content_three_top">
+					<p><b>4G专区</b></p>
+					<span>查看更多 &gt;</span>
+				</div>
+				<div id="content_three_left">
+					<img src="img/4G.jpg" title="4G+和更佳"/>
+				</div>
+				<div id="content_three_right">
+					<div class="content_three">
+						<h2>4G上网套餐</h2>
+						<p>让您体验更快的上网速度</p>
+						<img src="img/4G1.jpg" title="4G上网套餐"/>
+					</div>
+					<div class="content_three_one">
+						<h2>高清语音 (VoLTE)</h2>
+						<p>低延时，高品质，通话上网两不误</p>
+						<img src="img/4G7.jpg"  title="高清语音 (VoLTE)"/>
+					</div>
+				</div>
+				<div id="content_three_bottom">
+					<div class="content_three_one">
+						<h2>4G套餐</h2>
+						<p>加速加量不加价</p>
+						<img src="img/4G3.jpg" title="4G套餐"/>
+					</div>
+					<div class="content_three">
+						<h2>4G飞享套餐</h2>
+						<p>超值套餐 点32个赞</p>
+						<img src="img/4G4.jpg" title="4G飞享套餐"/>
+					</div>
+				</div>
+				<div id="content_three_footer">
+					<div class="content_three_one">
+						<h2>4G手机</h2>
+						<p>4G手机 品牌、厂家手机优惠大汇</p>
+						<img src="img/4G6.jpg" title="4G手机"/>
+					</div>
+					<div class="content_three">
+						<h2>4G自选套餐</h2>
+						<p>自由搭配套餐 实惠更多</p>
+						<img src="img/4G5.jpg" title="4G自选套餐"/>
+					</div>
+				</div>
+				<div id="clear"></div>
+			</div>
+			<!-------------买手机--------------->
+			<div id="content_four">
+				<div id="content_four_top">
+					<h4>买手机</h4>
+					<span>查看更多 &gt;</span>
+				</div>
+				<div id="content_four_contre">
+					<div class="content_four">
+						<p class="font">魅族魅蓝5</p>
+						<p class="font1">正面指纹识别</p>
+						<span><b>￥699</b></span>
+						<img src="img/m1.jpg" id="img1" title="魅族魅蓝5"/>
+					</div>
+					<div class="content_four">
+						<p class="font">华为-G9青春版</p>
+						<p class="font1">高光C角 指纹识别 高铁模式</p>
+						<span><b>￥1519</b></span>
+						<img src="img/m2.jpg" id="img2" title="华为-G9青春版"/>
+					</div>
+				</div>
+				<div id="content_four_contre">
+					<div class="content_four">
+						<p class="font">魅蓝NOTE5</p>
+						<p class="font1">快速充电 金属指纹大运存</p>
+						<span><b>￥1219</b></span>
+						<img src="img/m3.jpg" id="img1" title="魅蓝NOTE5"/>
+					</div>
+					<div class="content_four">
+						<p class="font">中国移动(M836)N2</p>
+						<p class="font1">金属机身 指纹解锁</p>
+						<span><b>￥1519</b></span>
+						<img src="img/m4.jpg" id="img2" title="中国移动(M836)N2"/>
+					</div>
+				</div>
+				<div id="clear1"></div>
+			</div>
+			<!-----------------业务推荐-------------->
+			<div id="content_five">
+				<div id="content_five_top">
+					<h4>业务推荐</h4>
+					<span>查看更多 &gt;</span>
+				</div>
+				<div id="content_five_left">
+					<img src="img/y1.jpg" title="WLAN资费"/>
+				</div>
+				<div id="content_five_right">
+					<div class="content_five">
+						<p class="font">两城一家</p>
+						<p class="font1">两城一家为你省到家</p>
+						<img src="img/y2.jpg" title="两城一家"/>
+					</div>
+					<div class="content_five">
+						<p class="font">手机报</p>
+						<p class="font1">让您轻松了解最新动态</p>
+						<img src="img/y3.jpg" title="手机报"/>
+					</div>
+				</div>	
+				<div id="content_five_bottom">
+					<div class="content_five">
+						<p class="font">流量放心包</p>
+						<p class="font1">随心浏览 放心上网</p>
+						<img src="img/y4.jpg" title="流量放心包"/>
+					</div>
+					<div class="content_five_one">
+						<p class="font">家庭网</p>
+						<p class="font1">家庭沟通专享 亲情欢乐随行</p>
+						<img src="img/y6.jpg" title="家庭网"/>
+					</div>
+					<div class="content_five">
+						<p class="font">季年流量包</p>
+						<p class="font1">季年流量特惠 上网巨优惠</p>
+						<img src="img/y5.jpg" title="季年流量包"/>
+					</div>
+					<div class="content_five_one">
+						<p class="font">包月流量包</p>
+						<p class="font1">流量费用双封顶 用的安心</p>
+						<img src="img/y7.jpg" title="包月流量包"/>
+					</div>
+				</div>
+				<div id="clear2"></div>
+			</div>
+			<!-----------------------公告------------->
+			<div id="main">
+				<span class="spa1"><i class="icon-volume-up"></i></span>
+				<p class="font2">公告:</p>
+				<p class="font3">中国移动山西公司12580移动惠生活</p>
+				<span class="spa2"><i class="icon-angle-right"></i></span>
+			</div>
+			<!--------------------------底部------------------->
+			<div id="footer">
+				<div class="menu" id="menu">
+					<p>服务渠道</p>
+					<ul >
+						<li>自助终端</li>
+						<li>10086热线</li>
+						<li>实体营业厅</li>
+						<li>短信营业厅</li>
+						<li>网上营业厅</li>
+						<li>掌上/手机营业厅</li>
+					</ul>
+					<p>站点导航</p>
+					<ul>
+						<li>MM</li>
+						<li>飞信</li>
+						<li>和包</li>
+						<li>咪咕阅读</li>
+						<li>139邮箱</li>
+						<li>咪咕音乐</li>
+					</ul>
+					<p>快捷服务</p>
+					<ul>
+						<li>套餐变更</li>
+						<li>充值中心</li>
+						<li>话费查询</li>
+						<li>套餐余量</li>
+						<li>账单查询</li>
+						<li>星级查询</li>
+					</ul>
+					<p>常见问题</p>
+					<ul>
+						<li>忘记密码怎么办</li>
+						<li>话费余额查询</li>
+						<li>通过网银如何缴费</li>
+						<li>如何查询我的积分</li>
+						<li>密码如何修改</li>
+						<li>充值卡如何使用</li>
+					</ul>
+					<p>商场服务指南</p>
+					<ul>
+						<li>购物指南</li>
+						<li>付款方式</li>
+						<li>物流配送</li>
+						<li>售后服务</li>
+						<li>个人中心</li>
+					</ul>
+					
+				</div>
+				<div id="main_foot">
+					<p>Copyright&copy;1999-2017 中国移动 版权所有</p>
+				</div>
+			</div>
+			<div id="aBack">
+			    <span><i class="icon-circle-arrow-up"></i></span>
+			</div>
+		</div>
+	</body>
+	<script src="js/first.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/back.js" type="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,38 @@
+var num=0;  //旧图片的下标
+var index;   //新图片的下标
+var content=document.getElementById("slider");
+var a=document.getElementById("slider").getElementsByTagName("a");
+var pic=document.getElementById("pic");
+var img=document.getElementById("pic").getElementsByTagName("img");
+var timer=setInterval(autoMove,2000);
+function autoMove(){
+	index=num+1;
+	if(index==img.length){
+		index=0;//超出最后一张图片就返回第一张
+	}
+	move();//没有对象调用，this指向window
+}
+content.onmouseover=function(){
+	clearInterval(timer);
+}
+content.onmouseout=function(){
+    timer=setInterval(autoMove,2000);
+}
+for(var i=0;i<img.length;i++){
+	a[i].index=i;//存储对应<a>的下标
+	a[i].onmouseover=move; //有对象调用，this指向调用者
+}
+function move(){
+	a[num].className="";
+	a[this.index].className="point";
+	img[num].className="";
+	img[this.index].className="img";
+	num=this.index;
+}
+//function play(){
+//	index=num-1;
+//	if(index==-1){
+//		index=img.length-1;//超出第一张图片就返回最后一张
+//	}
+//	move();//没有对象调用，this指向window
+//}

@@ -1,0 +1,578 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-size: 62.5%;
+}
+.dis {
+  display: inline-block;
+}
+.line {
+  line-height: 3rem;
+}
+@media (max-device-width: 4140px) {
+  #hed {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+    background: #F6F6F6;
+    height: 2rem;
+  }
+  #hed .img1 {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 4rem;
+  }
+  #hed .div1 {
+    display: inline-block;
+  }
+  #hed .div1 #sp {
+    color: #333333;
+    font-size: 1rem;
+    display: inline-block;
+  }
+  #hed .div1 i {
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    display: inline-block;
+    border-top-color: #333333;
+  }
+  #hed #province {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: white;
+    z-index: 999;
+    height: 100%;
+    display: none;
+  }
+  #hed #province .province_top {
+    width: 100%;
+    height: 3.5rem;
+    background: #EFEFEF;
+  }
+  #hed #province .province_top .icon5 i {
+    position: absolute;
+    line-height: 3rem;
+    left: 5%;
+    top: 0;
+  }
+  #hed #province .province_top .font5 {
+    display: inline-block;
+    line-height: 3.5rem;
+    margin-left: 8rem;
+  }
+  #hed #province .province_content {
+    margin-top: 1rem;
+    border: 1px solid #DFDFDF;
+    height: 10rem;
+  }
+  #hed #province .province_content p {
+    margin-left: 2rem;
+    height: 0.8rem;
+    border-left: 3px solid #E40177;
+    line-height: 0.8rem;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  #hed #province .province_content hr {
+    width: 90%;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+  }
+  #hed #province .province_content ul {
+    height: 2rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+  }
+  #hed #province .province_content ul li {
+    font-size: 1rem;
+    width: 2rem;
+    float: left;
+    margin-left: 1rem;
+  }
+  #hed span {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-top: - 2rem;
+  }
+  #hed #search {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: white;
+    z-index: 999;
+    display: none;
+  }
+  #hed #search .search_top {
+    width: 100%;
+    height: 3.5rem;
+    background: #EFEFEF;
+  }
+  #hed #search .search_top .icon3 i {
+    position: absolute;
+    line-height: 3rem;
+    left: 5%;
+    top: 0;
+  }
+  #hed #search .search_top #inp {
+    height: 2.5rem;
+    position: absolute;
+    line-height: 3rem;
+    left: 14%;
+    top: 1%;
+    width: 80%;
+    font-size: 2 rem;
+    border: 0;
+  }
+  #hed #search .search_top .icon4 {
+    margin-left: 18rem;
+    position: absolute;
+    top: 1rem;
+    z-index: 99;
+  }
+  #hed #search .butt {
+    background: #FBFBFB;
+    width: 100%;
+    height: 100%;
+  }
+  #hed #search .butt p {
+    margin-left: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  #hed #search .butt button {
+    width: 25%;
+    height: 3rem;
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    background: white;
+    border: 1px #DFDFDF;
+  }
+  #slider {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+  #slider #title {
+    position: absolute;
+    top: 90%;
+    left: 25%;
+  }
+  #slider #title a {
+    width: 0rem;
+    height: 0rem;
+    border-radius: 50%;
+    display: inline-block;
+    background: #BEBEC5;
+    padding: 5px;
+  }
+  #slider #title .point {
+    background: white;
+  }
+  #slider #pic img {
+    display: none;
+    height: auto;
+  }
+  #slider #pic .img {
+    width: 100%;
+    display: block;
+  }
+  #quickservice {
+    width: 100%;
+    height: 11rem;
+    border: 1px solid #DFDFDF;
+  }
+  #quickservice .quick {
+    display: inline-block;
+    width: 17%;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+  #quickservice .quick img {
+    width: 70%;
+  }
+  #quickservice .quick p {
+    font-size: 0.5rem;
+  }
+  #popular {
+    width: 100%;
+    margin-top: 0.5rem;
+    border: 1px solid #DFDFDF;
+  }
+  #popular #popular_top p {
+    border-left: 5px solid #E40177;
+    font-size: 1.5rem;
+    padding: 2%;
+  }
+  #popular #popular_left {
+    float: left;
+    width: 50%;
+  }
+  #popular #popular_left img {
+    width: 100%;
+  }
+  #popular #popular_right {
+    float: left;
+    width: 50%;
+  }
+  #popular #popular_right img {
+    width: 100%;
+  }
+  #popular #clear {
+    clear: both;
+  }
+  #buy {
+    width: 100%;
+    margin-top: 0.5rem;
+    border: 1px solid #DFDFDF;
+  }
+  #buy #buy_top p {
+    border-left: 5px solid #F8C701;
+    font-size: 1.5rem;
+    padding: 2%;
+  }
+  #buy #buy_content {
+    width: 100%;
+    height: auto;
+  }
+  #buy #buy_content .buy_one {
+    width: 49%;
+    border: 1px solid #DFDFDF;
+    float: left;
+    display: inline-block;
+  }
+  #buy #buy_content .buy_one .one_two {
+    display: inline-block;
+  }
+  #buy #buy_content .buy_one .one_two h4 {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  #buy #buy_content .buy_one .one_two p {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+  }
+  #buy #buy_content .buy_one .one_two span {
+    color: #E40077;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+  }
+  #buy #buy_content .buy_one img {
+    width: 40%;
+    margin-left: 7.5rem;
+    margin-top: - 1.5rem;
+  }
+  #buy #buy_content #clear {
+    clear: both;
+  }
+  #package {
+    width: 100%;
+    margin-top: 0.5rem;
+    border: 1px solid #DFDFDF;
+  }
+  #package #package_top p {
+    border-left: 5px solid #8FC320;
+    font-size: 1.5rem;
+    padding: 2%;
+  }
+  #package #package_content {
+    width: 100%;
+    height: auto;
+  }
+  #package #package_content .package_one {
+    width: 49%;
+    border: 1px solid #DFDFDF;
+    float: left;
+    display: inline-block;
+  }
+  #package #package_content .package_one .one_two {
+    display: inline-block;
+  }
+  #package #package_content .package_one .one_two p {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #333333;
+  }
+  #package #package_content .package_one .one_two span {
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    color: #999999;
+  }
+  #package #package_content .package_one img {
+    width: 40%;
+    margin-left: 7rem;
+    margin-top: - 1.5rem;
+  }
+  #package #package_content #clear {
+    clear: both;
+  }
+  #business {
+    width: 100%;
+    margin-top: 0.5rem;
+    border: 1px solid #DFDFDF;
+  }
+  #business #business_top p {
+    border-left: 5px solid #0085D0;
+    font-size: 1.5rem;
+    padding: 2%;
+  }
+  #business #business_content {
+    width: 100%;
+    height: auto;
+  }
+  #business #business_content .business_one {
+    width: 49%;
+    border: 1px solid #DFDFDF;
+    float: left;
+    display: inline-block;
+  }
+  #business #business_content .business_one .one_two {
+    display: inline-block;
+  }
+  #business #business_content .business_one .one_two p {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    color: #333333;
+  }
+  #business #business_content .business_one .one_two span {
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    color: #999999;
+  }
+  #business #business_content .business_one img {
+    width: 40%;
+    margin-left: 7rem;
+    margin-top: - 1.5rem;
+  }
+  #business #business_content #clear {
+    clear: both;
+  }
+  #pick {
+    width: 100%;
+    margin-top: 0.5rem;
+    border: 1px solid #DFDFDF;
+  }
+  #pick #pick_top p {
+    border-left: 5px solid #F8C701;
+    font-size: 1.5rem;
+    padding: 2%;
+  }
+  #pick #pick_content {
+    width: 100%;
+    height: auto;
+  }
+  #pick #pick_content .pick_one {
+    width: 49%;
+    border: 1px solid #DFDFDF;
+    float: left;
+    display: inline-block;
+  }
+  #pick #pick_content .pick_one .one_two {
+    display: inline-block;
+  }
+  #pick #pick_content .pick_one .one_two h4 {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  #pick #pick_content .pick_one .one_two p {
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+  }
+  #pick #pick_content .pick_one .one_two span {
+    color: #E40077;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+  }
+  #pick #pick_content .pick_one img {
+    width: 40%;
+    margin-left: 7.5rem;
+    margin-top: - 1.5rem;
+  }
+  #pick #pick_content #clear {
+    clear: both;
+  }
+  #footer {
+    width: 100%;
+  }
+  #footer .footer_top {
+    width: 100%;
+    height: 20 rem;
+    background: #F6F6F6;
+    border-bottom: 3px solid #E6E6E6;
+    line-height: 3rem;
+  }
+  #footer .footer_top ul {
+    display: inline-block;
+    margin-left: 5%;
+  }
+  #footer .footer_top ul li {
+    display: inline-block;
+  }
+  #footer .footer_top ul li a {
+    font-size: 5 rem;
+    color: #0085D0;
+  }
+  #footer .footer_top span {
+    font-size: 5 rem;
+    margin-left: 52%;
+    display: inline-block;
+  }
+  #footer .footer_top span a {
+    text-decoration: none;
+    color: black;
+  }
+  #footer .footer_bottom {
+    width: 100%;
+    height: 10 rem;
+    background: #F6F6F6;
+    text-align: center;
+  }
+  #footer .footer_bottom ul {
+    margin-top: 5%;
+    display: inline-block;
+  }
+  #footer .footer_bottom ul li {
+    display: inline-block;
+    font-size: 2 rem;
+  }
+  #footer .footer_bottom ul li .act {
+    color: #0085D0;
+  }
+  #footer .footer_bottom p {
+    font-size: 2 rem;
+    margin-top: 5%;
+  }
+  #aBack {
+    position: fixed;
+    right: 5%;
+    top: 90%;
+  }
+  #aBack span {
+    font-size: 15 rem;
+  }
+  #login {
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    display: none;
+  }
+  #login #login_top {
+    height: 3.5rem;
+    background: #F7F7F7;
+    border: 1px solid #DFDFDF;
+  }
+  #login #login_top .icon6 {
+    font-size: 1.8rem;
+    margin-left: 1.5rem;
+  }
+  #login #login_top .font6 {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-left: 8rem;
+  }
+  #login #login_top .icon7 {
+    font-size: 2rem;
+    margin-left: 6rem;
+  }
+  #login #login_content {
+    position: absolute;
+    border: 1px solid #DFDFDF;
+    height: 15rem;
+  }
+  #login #login_content button {
+    width: 40%;
+    height: 3.5rem;
+    border-radius: 30px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border: 1px solid #0085D0;
+    background: white;
+    font-size: 1rem;
+    color: #666666;
+  }
+  #login #login_content .active {
+    background: #0085D0;
+    color: white;
+  }
+  #login #login_content #text1 {
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    height: 2rem;
+    padding: 1px;
+  }
+  #login #login_content #i1 {
+    z-index: 99;
+    right: 20rem;
+    font-size: 1.5rem;
+    top: - 2rem;
+    position: relative;
+  }
+  #login #login_content #text2 {
+    width: 40%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    height: 2rem;
+  }
+  #login #login_content #i2 {
+    z-index: 99;
+    right: 10rem;
+    font-size: 1.5rem;
+    top: - 2rem;
+    position: relative;
+  }
+  #login #login_content #text3 {
+    width: 38%;
+    margin-top: 1rem;
+    height: 2.2rem;
+    position: relative;
+    right: 1.9rem;
+    background: #FAFAFA;
+    border: 1px solid #A9A9A9;
+    border-left: 0;
+  }
+  #login #login_content #rad {
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+  #login #login_content .f1 {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+  #login #login_content .f2 {
+    display: inline-block;
+    margin-left: 8rem;
+    font-size: 0.8rem;
+  }
+  #login #login_one {
+    width: 100%;
+    border: 1px solid #DFDFDF;
+    margin-top: 16rem;
+    height: 5rem;
+    background: #F7F7F7;
+  }
+  #login #login_one #butto {
+    border: 1px solid #0085D0;
+    background: #0085D0;
+    color: white;
+    width: 80%;
+    margin-left: 3rem;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.7rem;
+  }
+}
