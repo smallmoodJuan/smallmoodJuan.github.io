@@ -7,7 +7,7 @@ body{font-size:62.5%}
 .border2(@h:1px,@c:#DFDFDF){
     border: @h solid @c;
 }
-.sanjiao(@c:@color,@w:5px){
+.triangle(@c:@color,@w:5px){
     width: 0;
     height: 0;
     border: @w solid transparent;
@@ -31,7 +31,7 @@ body{font-size:62.5%}
         .div1{
             display: inline-block;
             #sp{color: @color;font-size: 1rem;display: inline-block;}
-            i{.sanjiao;}
+            i{.triangle;}
         }
         #province{
             position: fixed;width: 100%;top: 0;background: white;z-index: 999;height: 100%;display: none;
