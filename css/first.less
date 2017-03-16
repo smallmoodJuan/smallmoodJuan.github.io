@@ -118,14 +118,14 @@
         #title{
             position: absolute;
             top: 90%;
-            left: 50% - 25px;
+            left: 50% - 10px;
            a{
                 width: @width - 25px;
                 height: @width - 25px;
                 border-radius: 50%;
                 display: inline-block;
                 background: @c;
-                padding: 5px;
+                padding: 2%;
             }
             .point{
                 background: @co;
@@ -257,10 +257,12 @@
             img{width: @wi;}
         }
         #content_three_right{
+            box-sizing: border-box;
             height:100%;
             float: right;
             width: @wid;
             .content_three{
+                box-sizing: border-box;
                 width: @wi;
                 background: @col;
                 overflow: hidden;
@@ -270,6 +272,7 @@
                 
             }
             .content_three_one{
+                box-sizing: border-box;
                 width: @wi;
                 background: #EFEFEF;
                 display: inline-block;
@@ -281,6 +284,7 @@
         #content_three_bottom{
             width: @wi;
             .content_three{
+                box-sizing: border-box;
                 width: @wid;
                 background: @col;
                 overflow: hidden;
@@ -291,6 +295,7 @@
                 
             }
             .content_three_one{
+                box-sizing: border-box;
                width: @wid;
                 background: #EFEFEF;
                 display: inline-block;float: left;
@@ -302,6 +307,7 @@
          #content_three_footer{
             width: @wi;
             .content_three{
+                box-sizing: border-box;
                 width: @wid;
                 background: @col;
                 overflow: hidden;
@@ -312,7 +318,8 @@
                 
             }
             .content_three_one{
-               width: @wid;
+                box-sizing: border-box;
+                width: @wid;
                 background: #EFEFEF;
                 display: inline-block;float: right;
                 img{float: right;width: 80%;} 
@@ -393,6 +400,7 @@
             width: @wi;
             border: 1px solid #DFDFDF;border-top: 0;border-left: 0;
             .content_five{
+                box-sizing: border-box;
                 margin-left: @marginLeft;
                 border: 1px solid #DFDFDF;
                 width: @wid - 1%;
@@ -431,7 +439,8 @@
             color: #5A5A5A;
         }
         .font3{
-            color: @c;font-size: @fontSize - 5px;
+            color: @c;font-size: @fontSize - 5px;text-overflow: ellipsis;width: 60%;height: 20px;
+            white-space:nowrap;
         }
         .spa2{
             margin-left: 12%;font-size: @fontSize;display: inline-block;

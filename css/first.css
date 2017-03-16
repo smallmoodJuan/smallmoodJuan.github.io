@@ -121,7 +121,7 @@
   #slider #title {
     position: absolute;
     top: 90%;
-    left: 25%;
+    left: 40%;
   }
   #slider #title a {
     width: 5px;
@@ -129,7 +129,7 @@
     border-radius: 50%;
     display: inline-block;
     background: #0989D2;
-    padding: 5px;
+    padding: 2%;
   }
   #slider #title .point {
     background: #E40077;
@@ -368,11 +368,17 @@
     width: 100%;
   }
   #content_three #content_three_right {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     height: 100%;
     float: right;
     width: 50%;
   }
   #content_three #content_three_right .content_three {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     background: white;
     overflow: hidden;
@@ -390,6 +396,9 @@
     width: 78%;
   }
   #content_three #content_three_right .content_three_one {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     width: 100%;
     background: #EFEFEF;
     display: inline-block;
@@ -411,6 +420,9 @@
     width: 100%;
   }
   #content_three #content_three_bottom .content_three {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     width: 50%;
     background: white;
     overflow: hidden;
@@ -429,6 +441,9 @@
     width: 78%;
   }
   #content_three #content_three_bottom .content_three_one {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     width: 50%;
     background: #EFEFEF;
     display: inline-block;
@@ -451,6 +466,9 @@
     width: 100%;
   }
   #content_three #content_three_footer .content_three {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     width: 50%;
     background: white;
     overflow: hidden;
@@ -469,6 +487,9 @@
     width: 78%;
   }
   #content_three #content_three_footer .content_three_one {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     width: 50%;
     background: #EFEFEF;
     display: inline-block;
@@ -638,6 +659,9 @@
     border-left: 0;
   }
   #content_five #content_five_bottom .content_five {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     margin-left: 5px;
     border: 1px solid #DFDFDF;
     width: 49%;
@@ -710,6 +734,10 @@
   #main .font3 {
     color: #0989D2;
     font-size: 15px;
+    text-overflow: ellipsis;
+    width: 60%;
+    height: 20px;
+    white-space: nowrap;
   }
   #main .spa2 {
     margin-left: 12%;
